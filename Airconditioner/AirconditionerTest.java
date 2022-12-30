@@ -4,7 +4,13 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class AirconditionerTest {
+public class AirconditionerTest {
+    
+    private AirConditioner newAc ;
+    @BeforeEach
+    void setUp(){
+        newAc = New Airconditioner;
+    }
     @Test
     public void powerOn(){
         Airconditioner newAC = new Airconditioner();
